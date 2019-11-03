@@ -41,7 +41,6 @@
 		<e k="GC_gui_fullOutputs" v="Готовые продукты"/>
 		<e k="GC_gui_rename" v="Переименовать"/>
 		<e k="GC_gui_autoStart" v="Автостарт"/>
-		
 		<e k="GC_gui_overview" v="Обзор"/>
 		<e k="GC_gui_productLines" v="производственная линия"/>
 		<e k="GC_gui_description" v="Описание"/>
@@ -61,39 +60,41 @@
 		<e k="GC_gui_pallet2" v="%s Поддоны"/>
 		<e k="GC_gui_spawnText1" v="Создать %s поддон"/>
 		<e k="GC_gui_spawnText2" v="Создать %s поддоны"/>		
-		
 		<e k="GC_Productline_Title_Backup" v="Производственная линия %d"/>
 		<e k="GC_Input_Title_Backup" v="Сырьё %d"/>
 		<e k="GC_Output_Title_Backup" v="Продукт %d"/>
 		<e k="GC_Input_Header_Backup" v="Сырьё"/>
 		<e k="GC_Output_Header_Backup" v="Продукция"/>
-		
 		<e k="GC_Open_Product_Menu" v="Открыть меню производства"/>
 		<e k="GC_Open_Overview_Menu" v="Открыть обзорное меню"/>
-		
 		<e k="GC_Factory_Animal_Dialogue" v="Выберите количество животных для выгрузки на завод."/>
-		
 		<e k="GC_gui_disabled" v="Остановлено"/>
 		<e k="GC_gui_add" v="Добавить"/>
 		<e k="GC_gui_remove" v="Удалить"/>
+		<e k="GC_gui_rename" v="Rename"/><!-- Translation required -->
 		<e k="GC_gui_max" v="Максимум"/>
 		<e k="GC_gui_percent" v="Процент"/>
 		<e k="GC_gui_lifeTimeIncome" v="Доход"/>
 		<e k="GC_gui_changeFactoryTitle" v="Введите новое имя фабрики ниже."/>
 		
+		<e k="GC_gui_factories" v="Factories"/>   <!-- Translation required -->
+		<e k="GC_gui_activeProductLines" v="Avtive Product Lines:"/>  <!-- Translation required -->
+		<e k="GC_gui_emptyInputs" v="Raw Materials:"/>    <!-- Translation required -->
+		<e k="GC_gui_fullOutputs" v="Final Products:"/>   <!-- Translation required -->
+		<e k="GC_gui_dynamicStorages" v="Dynamic Storages"/>   <!-- Translation required -->
+		<e k="GC_gui_freeSlots" v="Free Slots:"/>
 		<e k="GC_gui_placeableObject" v="Размещаемый объект"/>
 		<e k="GC_gui_farmlandObject" v="Farmland объект"/>
+		<e k="GC_gui_changeDynamicStorageTitle" v="Define a new name for factory"/>  <!-- Translation required -->
+		<e k="GC_gui_dynamicStorage_titleBackup" v="Dynamic Storage"/>   <!-- Translation required -->
 		
 		<!-- Formatting required -->
 		<e k="GC_Factory_Sell_Warning" v="Эта фабрика до сих пор содержит продукты. Это будет продано оптом на следующую сумму:
-
-Цена:  %s"/>
-
+			Цена:  %s"/>
 		<e k="GC_Factory_Purchase_Warning" v="Пожалуйста, подтвердите следующую покупку продукта.
-
-Сырьё:  %s
-Объём:  %s
-Стоимость:  %s"/>
+			Сырьё:  %s
+			Объём:  %s
+			Стоимость:  %s"/>
 
 		<!-- BaleShreader -->
 		<e k="GC_baleShreader_openSteer" v="Открыть элемент управления"/>
@@ -137,5 +138,13 @@
 		<e k="GC_dynamicStorage_gui_confirmBoxUnloading" v="Подтвердите позицию разгрузки"/>
 		<e k="GC_dynamicStorage_gui_confirmBoxLoading" v="Подтвердите зарядку коробки"/>
 
+		<!-- Market -->
+		<!--e k="GC_market_showDetails" v="Details"/>
+		<e k="GC_market_date" v="Datum"/>
+		<e k="GC_market_name" v="Name"/>
+		<e k="GC_market_type" v="Art"/>
+		<e k="GC_market_liter" v="Liter"/>
+		<e k="GC_market_money" v="Preis"/>
+		<e k="GC_market_designation" v="Bezeichnung"/-->
 	</elements>
 </l10n>
